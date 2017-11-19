@@ -13,16 +13,16 @@ header {
 }
 
 section {
-  /*outline: 1px solid white;*/
   box-sizing: border-box;
   height: auto;
   margin: 14px;
-  width: 100%;
-  overflow: auto;
+  width: auto;
+  overflow: visible;
 }
 
 body {
   background: #0079bf;
+  width: 100%;
 }
 
 .img {
@@ -78,11 +78,33 @@ body {
   border-radius: 7px;
   color: #fff;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   font-weight: bold;
   margin-top: 7px;
   outline: none;
   padding: 7px;
+}
+
+.save-js:hover {
+  background: #519839;
+}
+
+.btn-js {
+  background-color: transparent;
+  border-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.icon-cross {
+  color: #999999;
+  font-size: 16px;
+}
+
+.icon-cross:hover {
+  cursor: pointer;
+  color: #4d4d4d;
+
 }
 
 .item-js {

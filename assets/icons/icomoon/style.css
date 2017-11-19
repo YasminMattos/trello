@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?gtmdo3');
-  src:  url('fonts/icomoon.eot?gtmdo3#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?gtmdo3') format('truetype'),
-    url('fonts/icomoon.woff?gtmdo3') format('woff'),
-    url('fonts/icomoon.svg?gtmdo3#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2bgcpd');
+  src:  url('fonts/icomoon.eot?2bgcpd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2bgcpd') format('truetype'),
+    url('fonts/icomoon.woff?2bgcpd') format('woff'),
+    url('fonts/icomoon.svg?2bgcpd#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -30,11 +30,20 @@
 .icon-search:before {
   content: "\e986";
 }
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
 .icon-plus:before {
   content: "\ea0a";
 }
 .icon-info:before {
   content: "\ea0c";
+}
+.icon-cross:before {
+  content: "\ea0f";
 }
 .icon-trello:before {
   content: "\eab3";
