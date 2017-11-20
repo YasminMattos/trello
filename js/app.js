@@ -52,22 +52,26 @@ window.addEventListener('load', function(){
         btn.classList.add('btn-js');
         btn.classList.add('icon-cross');
         container.appendChild(btn);
-      })
+      });
 
       btn.addEventListener('click', function(){
         container.removeChild(area);
         container.removeChild(add);
         container.removeChild(btn);
         container.appendChild(card);
+      });
+
+      add.addEventListener('click', function(){
+        var task = document.createElement('span');
+        task.textContent = area.value;
+        task.classList.add('task-js');
+        container.appendChild(task);
+        area.value = '';
       })
 
 
-      
+ 
   });
-
-
-
-
 
 })
 
