@@ -9,7 +9,6 @@ header {
   color: #fff;
   padding: 7px;
   text-align: center;
-  width: 100%;
 }
 
 section {
@@ -17,12 +16,13 @@ section {
   height: 100%;
   margin: 14px;
   width: auto;
-  overflow: visible;
+  overflow: auto;
 }
 
 body {
-  background: #0079bf;
-  width: 100%;
+  background-image: url(../assets/images/horse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img {

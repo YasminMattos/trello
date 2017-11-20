@@ -62,14 +62,13 @@ window.addEventListener('load', function(){
       });
 
       add.addEventListener('click', function(){
+        if (area.value.length !== 0)
         var task = document.createElement('span');
         task.textContent = area.value;
         task.classList.add('task-js');
         container.appendChild(task);
         area.value = '';
       })
-
-
  
   });
 
