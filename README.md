@@ -11,17 +11,21 @@ La réplica contiene ciertas funcionalidades especificadas en cada versión:
 
 ***Versión 0.0.1:***  
 
-- Muestra el texto "Añadir una lista ...".
+- Muestra el texto "Add a list ...".
 
 - Al hacer click se oculta el texto y muestra un formulario.
 
-- El formulario está conformado por un input y un botón para que pueda añadir tareas a tu lista.
+- El formulario está conformado por un input, un botón que añade tareas a tu lista y un botón para cerrar el formulario.
 
 ***Versión 0.0.2***
 
-- Al dar click en el botón de "Guardar", se muestra un nuevo cuadro donde aparece el nombre de la lista agregada.
+- Al dar click en el botón "Save", se muestra un nuevo cuadro donde aparece el nombre de la lista agregada.
 
-- Muestra un texto de "Añadir una tarea" dentro de la lista.
+- Muestra un texto "Add a card" dentro de la lista.
+
+***Versión 0.0.3***
+
+- Al dar click en "Add a card", muestra un formulario con un textarea, un botón "Add" y un botón que cierra el formulario.
 
 
 ***_Resultado:_*** 

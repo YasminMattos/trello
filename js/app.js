@@ -4,6 +4,9 @@ window.addEventListener('load', function(){
   var item = document.querySelector('.item');
   var save = document.createElement('button');
   var close = document.createElement('button');
+  var add = document.createElement('button');
+  var btn = document.createElement('button');
+  var area = document.createElement('textarea');
 
   item.addEventListener('click', function(){
     save.textContent = 'Save';
@@ -38,7 +41,31 @@ window.addEventListener('load', function(){
       card.setAttribute('placeholder', 'Add a card...');
       card.classList.add('card-js');
       container.appendChild(card);
+
+      card.addEventListener('click', function(){
+        container.removeChild(card);
+        container.appendChild(area);
+        area.classList.add('area-js');
+        add.textContent = 'Add';
+        add.classList.add('add-js');
+        container.appendChild(add);
+        btn.classList.add('btn-js');
+        btn.classList.add('icon-cross');
+        container.appendChild(btn);
+      })
+
+      btn.addEventListener('click', function(){
+        container.removeChild(area);
+        container.removeChild(add);
+        container.removeChild(btn);
+        container.appendChild(card);
+      })
+
+
+      
   });
+
+
 
 
 
