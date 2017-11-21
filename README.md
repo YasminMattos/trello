@@ -37,6 +37,11 @@ La réplica contiene ciertas funcionalidades especificadas en cada versión:
 
 - Muestra el formulario nuevamente debajo de la última tarea añadida.
 
+***Versión 0.0.6***
+
+- Agrega múltiples listas con tarjetas. El formulario de "Add a list" aparece a la derecha de las listas anteriormente creadas.
+
+
 ***_Resultado:_*** 
 
 ![trello](assets/images/trellotab.png)
