@@ -27,7 +27,7 @@ window.addEventListener('load', function(){
         
   });
 
-  save.addEventListener('click', function(){
+    save.addEventListener('click', function(){
     if (item.value.length !== 0)
       var container = document.createElement('div');
       container.classList.add('container-js');
@@ -45,6 +45,7 @@ window.addEventListener('load', function(){
       card.addEventListener('click', function(){
         container.removeChild(card);
         container.appendChild(area);
+        area.focus();
         area.classList.add('area-js');
         add.textContent = 'Add';
         add.classList.add('add-js');
@@ -53,24 +54,24 @@ window.addEventListener('load', function(){
         btn.classList.add('icon-cross');
         container.appendChild(btn);
       });
-
+      
       btn.addEventListener('click', function(){
         container.removeChild(area);
         container.removeChild(add);
         container.removeChild(btn);
         container.appendChild(card);
       });
-
+      
       add.addEventListener('click', function(){
         if (area.value.length !== 0)
         var task = document.createElement('span');
-        task.textContent = area.value;
         task.classList.add('task-js');
-        container.appendChild(task);
+        task.textContent = area.value;
+        container.insertBefore(task,area);
         area.value = '';
-      })
- 
+      });
+      
   });
 
-})
+});
 

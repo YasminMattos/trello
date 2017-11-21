@@ -15,8 +15,8 @@ section {
   box-sizing: border-box;
   height: 100%;
   margin: 14px;
-  width: auto;
   overflow: auto;
+  width: auto;
 }
 
 body {
