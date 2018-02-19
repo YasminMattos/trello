@@ -1,5 +1,12 @@
-# **Reto Trello**
+# Mini Trello
 -----
+Mini Trello es una plataforma réplica del Trello original, que te permitirá añadir cards y listas.
+
+![image](https://user-images.githubusercontent.com/32296818/36389913-fc3c4ae6-156e-11e8-87fd-7af5e8e8aa7a.png)
+
+## Elaborado para
+
+[Laboratoria](http://www.laboratoria.la/)
 
 ### **Objetivo**
 
@@ -40,8 +47,3 @@ La réplica contiene ciertas funcionalidades especificadas en cada versión:
 ***Versión 0.0.6***
 
 - Agrega múltiples listas con tarjetas. El formulario de "Add a list" aparece a la derecha de las listas anteriormente creadas.
-
-
-***_Resultado:_*** 
-
-![trello](assets/images/trellotab.png)
